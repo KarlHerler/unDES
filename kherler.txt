@@ -1,0 +1,41 @@
+Computing resources:
+
+  *  Macbook Air, 2 core i5,  hyperthreading, no OpenCL
+  *  Macbook Pro, 2 core c2d, no hyperthreading, no OpenCL
+  *  Laptop,      2 core c2d, no hyperthreading, no OpenCL
+  *  ec2.mico,    1 core,     no hyperthreading, no OpenCL, located in Ireland
+  *  ec2.small,   2 core,     no hyperthreading, no OpenCL, located in Ireland
+  *  ec2.micro,   1 core,     no hyperthreading, no OpenCL, located in Ireland
+  *  Server,      2 core AMD, no hyperthreading, no OpenCL
+
+On demand resources:
+
+  *  Desktop,     4 core i7,  hyperthreading, OpenCL
+  *  Desktop,     2 core c2d, no hyperthreading, OpenCL 
+  *  Laptop,      4 core i7,  hyperthreading, no OpenCL (slightly broken)
+  *  Laptop,      2 core,     no hyperthreading, no OpenCL
+
+
+
+Current, existing code:
+
+  *  DES implementation in C using OpenSSL/ecb_decrypt
+  *  DES implementation in OpenCL, not really tested.
+  *  DES implementation in scala, slow as shit
+  *  DES implementation in python, slow as shit
+
+  *  Actor system for distributing keys and managing DES decryption programs on a local machine (rather ad hoc implementation) (Scala)
+  *  Actor system for distributing keyspaces over network to local actors (partially implemented, also ad hoc) (Scala)
+  *  Buildtools, CI enviroment and deployment framework
+
+
+Misc. Skills:
+
+  *  Distributed systems, Network programming
+  *  Actor based systems design (Scala, Erlang)
+  *  Unix skills (rather lacking windows skills though)
+  *  C-programming
+  *  Webprogramming
+  *  Amazon Elastic Cloud (both knowledge and access to most resources needed)
+  *  Pretty much every other damn programming language around ('cept APL').
+  *  AI and ML, doubtfully needed.
