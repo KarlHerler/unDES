@@ -1,0 +1,29 @@
+Resources (all located in Finland or Sweden):
+	Linux (Ubuntu, Mint, Debian, FreeBSD):
+		- Intel E8400          2 threads     GeForce GTX 260
+		- Intel i3 370M        4 threads     laptop
+		- Intel i5 760         4 threads     server
+		- Intel Xeon E31220    4 threads     server
+		- Unknokwn             6 threads     unknown, probably server
+	
+	Windows:
+		- Intel i7 930         8 threads     GeForce GTX 580
+
+
+Available on demand:
+	Linux:
+		- Intel i7 9xx         8 threads     GeForce GTX xxx
+	OS X:
+		- Intel P8600          2 threads     GeForce 320M          MacBookPro7,1
+
+Can probably get hold of a few more Windows computers if needed
+
+
+Existing code:
+	- Crappy DES in C using OpenSSL (~same as Kalle)
+	- Code for all the previous challenges in the course (coded in Java, C or PHP)
+
+Skills:
+	- Java, C(++), PHP (and a few others if needed)
+	- Unix
+	- Network, web programming
