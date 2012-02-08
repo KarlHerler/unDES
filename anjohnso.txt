@@ -1,0 +1,24 @@
+Computing resources:
+
+
+  *  Macbook Pro  core i5
+	
+	Windows
+  *  Desktop      PHENOM II X4 965, Crossfire 5770
+  *  Laptop	  core i5, hyperthreading, 520mx Opencl & CUDA
+	
+	On demand
+  * 4x quad core desktops
+  * 3x ATI 5870 Opencl
+  * 1x ATI 5970 Opencl
+  * 1x 9800gtx CUDA & Opencl
+
+  And maybe 1-3 more desktops if needed
+
+Existing code:
+	- Crappy DES code in c with openssl
+
+
+Skills:
+	- Java, c++ etc
+	- Not much else of use that I can think of D:
