@@ -1,0 +1,13 @@
+Primary:
+  * Beast	i5-450m 2x2.4 Ghz	mobility radeon 5870	Windows 7 x64
+
+On demand:
+  * Slynon	~1 Ghz			-			Debian
+  * Gremlin	Via c7 1.6 Ghz		-			Gentoo (heat problems)
+
+Existing code:
+- Slow-as-fuck des bruteforcer in java
+
+Skills:
+- Mostly Java
+- I can play the Finnish Drum March on my stomach
