@@ -1,4 +1,10 @@
 #Server
+
+(At least) Temporary location: http://undes.herokuapp.com/
+
+
+##Spec
+
 pulled with some minor modifications from: https://www.facebook.com/groups/320714721299206/doc/320789261291752/
 
  *  HTTP key distribution and validation service
