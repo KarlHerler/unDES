@@ -9,9 +9,8 @@ pulled with some minor modifications from: https://www.facebook.com/groups/32071
  *  EC2 / Linode hosting option
  *  Should support master-master replication with fallover, in order to avoid the risk of loss of progress
 
- ---
  
- ##Server communication spec##
+##Server communication spec
 
 
  <table>
@@ -53,7 +52,7 @@ pulled with some minor modifications from: https://www.facebook.com/groups/32071
   </tr>
  </table>
 
----
+
 
 ##Running the server
 
