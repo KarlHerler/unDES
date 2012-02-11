@@ -10,7 +10,8 @@ pulled with some minor modifications from: https://www.facebook.com/groups/32071
  *  Should support master-master replication with fallover, in order to avoid the risk of loss of progress
 
  ---
- ##Server communication spec
+ 
+ ##Server communication spec##
 
 
  <table>
@@ -51,3 +52,20 @@ pulled with some minor modifications from: https://www.facebook.com/groups/32071
     <td>Responds, unimplemented</td>
   </tr>
  </table>
+
+---
+
+##Running the server
+
+Requirements:
+
+ *  Python (2.6+)
+ *  virtualenv (`easy_install virualenv`)
+ *  Flask (`pip install Flask`)
+
+Running:
+```python
+python undes.py
+```
+
+
