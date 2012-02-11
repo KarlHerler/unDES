@@ -1,7 +1,7 @@
 #Distributed des destruction
 ---
 
-There are more readmes like this in the server and client folders with information regarding those domains.
+There are more readmes like this in the [server](https://github.com/KarlHerler/unDES/tree/master/server) and [client](https://github.com/KarlHerler/unDES/tree/master/client) folders with information regarding those domains.
 
 Feel free to send any kind of pull request, create any kind of issue or do any kind of fork.
 
