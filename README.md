@@ -1,8 +1,7 @@
 #Distributed des destruction
 ---
 
-So what's the plan?
-
+There are more readmes like this in the server and client folders with information regarding those domains.
 
 Feel free to send any kind of pull request, create any kind of issue or do any kind of fork.
 
