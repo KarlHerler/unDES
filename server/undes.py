@@ -1,9 +1,9 @@
-from flask import Flask, request
+from flask import Flask, render_template, request
 app = Flask(__name__)
 
 @app.route("/")
 def hello():
-  return "Hello DES!"
+  return render_template('index.html')
 
 @app.route("/key")
 def key():
