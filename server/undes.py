@@ -7,18 +7,24 @@ app = Flask(__name__)
 def hello():
   return render_template('index.html')
 
-@app.route("/key")
+@app.route("/key", methods=['GET', 'POST'])
 def key():
-  if request.method=='POST': return handleReport(true)+"\n get keys"
-  return "get keys, TBD"
+  returner = ""
+  if (request.method=='POST'):  
+    returner = returner +  handleReport((request.form["result"].lower()=="true")) + "\n"
+    #returner = returner + request.method+"\n"
+  
+  return returner + "get keys, TBD"
 
-@app.route("/report/")
+@app.route("/report", methods=['GET', 'POST'])
 def report():
-  return handleReport(request.method=='GET')
+  return handleReport(request.method=='POST')
 
 def handleReport(r):
+  #return request.form["key"]
   if r: return "shit something found!"
   else: return "no key found, thanks for playing"
+
 
 if __name__ == "__main__":
   port = int(os.environ.get('PORT', 5000))
