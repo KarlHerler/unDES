@@ -41,7 +41,7 @@ pulled with some minor modifications from: https://www.facebook.com/groups/32071
   <tr>
     <td>/key</td>
     <td>POST</td>
-    <td>Reads statusreport (key=<key>&result<true/false>), Returns a keyrange, shortcut for POST /report, GET /key </td>
+    <td>Reads statusreport (`key=<key>&result<true/false>`), Returns a keyrange, shortcut for POST /report, GET /key </td>
     <td>Responds, unimplemented</td>
   </tr>
   <tr>
@@ -53,7 +53,7 @@ pulled with some minor modifications from: https://www.facebook.com/groups/32071
   <tr>
     <td>/report</td>
     <td>POST</td>
-    <td>Reads statusreport as contained in POSTDATA (key=<key>)</td>
+    <td>Reads statusreport as contained in POSTDATA (`key=<key>`)</td>
     <td>Responds, unimplemented</td>
   </tr>
  </table>
