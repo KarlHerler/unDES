@@ -1,6 +1,9 @@
 import os
 
 from flask import Flask, render_template, request
+import redis
+
+r = redis.StrictRedis(host='localhost', port=6379, db=0)
 app = Flask(__name__)
 
 @app.route("/")
@@ -12,7 +15,6 @@ def key():
   returner = ""
   if (request.method=='POST'):  
     returner = returner +  handleReport((request.form["result"].lower()=="true")) + "\n"
-    #returner = returner + request.method+"\n"
   
   return returner + "get keys, TBD"
 
