@@ -12,3 +12,4 @@ Feel free to send any kind of pull request, create any kind of issue or do any k
 
 *  **Add a list your resources, any code you have and any skills** that you posess which might be useful, similar to [this](https://github.com/KarlHerler/unDES/blob/master/kherler.txt).
 *  **Figure out a way to specify keyranges.** How should the server specify a keyrange to hand out to the client and how should said keyrange be interpreted by the client?
+*  **Create the client**
