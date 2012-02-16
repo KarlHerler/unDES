@@ -30,11 +30,16 @@
     </header>
     <div id="main" role="main">
       
-      <h2>Overall progress: 10%</h2>
+      <h2>Overall progress: <span id="donepercentile">10%</span></h2>
       <div class="progress">
-        <div class="bar"style="width: 10%;"></div>
+        <div class="bar"style="width: 0%;"></div>
       </div>
     
+      <div>
+        <div>
+          <strong>Current keyrange:</strong> <span id="keyrange">2020222</span>
+        </div>
+      </div>
     </div>
     <footer>
 
@@ -60,6 +65,16 @@
     Modernizr.load({
       load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
     });
+  </script>
+
+  <script>
+    var current = {{ current }}
+    var done = current/72057594037927
+    var doneRounded = parseInt(Math.round(done*100000))/100000
+    $(".bar").css("width", ((doneRounded)*100)+"%")
+    //$(".bar").css("width", "40%")
+    $("#donepercentile").html(doneRounded*100+"%")
+    $("#keyrange").html(current)
   </script>
 
 

@@ -4,7 +4,7 @@ import time
 r = redis.StrictRedis(host='localhost', port=6379, db=0)
 
 class Key:
-	batchsize = 1000000
+	batchsize = 7200000000
 
 	def getStaleKey(self):
 		d = r.zrange("key:out", 0, 0, False, True)

@@ -2,16 +2,20 @@ import os
 
 from flask import Flask, render_template, request
 from Key import Key
+from Metrics import Metrics
 import redis
 
 r = redis.StrictRedis(host='localhost', port=6379, db=0)
 k = Key()
+m = Metrics()
+
 
 app = Flask(__name__)
 
 @app.route("/")
 def hello():
-  return render_template('index.html')
+  #warning, middleware doing domain level stuff
+  return render_template('index.html', current=m.current())
 
 
 @app.route("/key", methods=['GET', 'POST'])
