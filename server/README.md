@@ -35,14 +35,14 @@ pulled with some minor modifications from: https://www.facebook.com/groups/32071
   <tr>
     <td>/key</td>
     <td>GET</td>
-    <td>Returns a keyrange</td>
+    <td>Returns a keyrange startpoint and size</td>
     <td>Implemented</td>
   </tr>
   <tr>
     <td>/key</td>
     <td>POST</td>
     <td>Reads statusreport (`range=<range>&key=<key>&found=<true/false>`), Returns a keyrange, shortcut for POST /report, GET /key </td>
-    <td>Responds, unimplemented</td>
+    <td>Implemented, silent</td>
   </tr>
   <tr>
     <td>/report</td>
