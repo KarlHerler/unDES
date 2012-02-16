@@ -36,25 +36,19 @@ pulled with some minor modifications from: https://www.facebook.com/groups/32071
     <td>/key</td>
     <td>GET</td>
     <td>Returns a keyrange</td>
-    <td>Responds, unimplemented</td>
+    <td>Implemented</td>
   </tr>
   <tr>
     <td>/key</td>
     <td>POST</td>
-    <td>Reads statusreport (`key=<key>&result<true/false>`), Returns a keyrange, shortcut for POST /report, GET /key </td>
-    <td>Responds, unimplemented</td>
-  </tr>
-  <tr>
-    <td>/report</td>
-    <td>GET</td>
-    <td>accepts report as no key found</td>
+    <td>Reads statusreport (`range=<range>&key=<key>&found=<true/false>`), Returns a keyrange, shortcut for POST /report, GET /key </td>
     <td>Responds, unimplemented</td>
   </tr>
   <tr>
     <td>/report</td>
     <td>POST</td>
-    <td>Reads statusreport as contained in POSTDATA (`key=<key>`)</td>
-    <td>Responds, unimplemented</td>
+    <td>Reads statusreport as contained in POSTDATA (`range=<range>&key=<key>&found=<true/false>`)</td>
+    <td>Implemented</td>
   </tr>
  </table>
 
