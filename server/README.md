@@ -1,6 +1,6 @@
 #Server
 
-(At least) Temporary location: http://undes.herokuapp.com/
+Location: http://ec2.karlherler.com:5000/
 
 
 ##Spec
